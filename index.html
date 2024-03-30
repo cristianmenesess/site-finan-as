@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento Financeiro</title>
+    <link rel="stylesheet" href="./src/CSS/style.css">
+</head>
+<header>
+    <nav>
+      <div class="logo">Gerenciamento Financeiro</div>
+      <div class="user-info">Olá, <span id="username">Nome do Usuário</span></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="balance">
+      <h2>Saldo Atual</h2>
+      <p id="current-balance">R$ 0,00</p>
+    </section>
+
+    <div class="transaction-statement">
+      <section class="transaction">
+        <h2>Nova Transação</h2>
+        <div class="transaction-form">
+          <label for="transaction-amount">Valor:</label>
+          <input type="number" id="transaction-amount" step="0.01" required>
+          <button id="add-transaction">Adicionar</button>
+          <button id="subtract-transaction">Subtrair</button>
+        </div>
+      </section>
+
+      <section class="statement">
+        <h2>Extrato</h2>
+        <ul id="transaction-list"></ul>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; by Cristian</p>
+  </footer>
+
+<script src="./src/JS/script.js"></script>
+
+
+<body>
+
+    
+</body>
+
+</html>

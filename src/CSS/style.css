@@ -1,0 +1,120 @@
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Saldo Atual */
+  .balance {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .balance h2 {
+    margin-top: 0;
+  }
+  
+  .balance p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  /* Nova Transação e Extrato */
+  .transaction-statement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .transaction,
+  .statement {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    flex-basis: calc(50% - 10px); /* Ajuste a largura das seções */
+  }
+  
+  .transaction h2,
+  .statement h2 {
+    margin-top: 0;
+  }
+  
+  .transaction-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .transaction-form input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .transaction-form button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .transaction-form button:hover {
+    background-color: #555;
+  }
+  
+  .statement ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .statement li {
+    padding: 5px 0;
+  }
+  
+  /* Estilos para transações */
+  .addition {
+    color: green;
+  }
+  
+  .subtraction {
+    color: red;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
